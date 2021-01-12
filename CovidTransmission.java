@@ -12,7 +12,7 @@ import java.util.Scanner;
 /**
  * This class will prompt the user to enter the needed data and calculate and display the time each person spent together in minutes. It will then display the associated risk level.
  */
-public class Main   /**change the name to CovidTransmission*/
+public class CovidTransmission
 {   
     public static void main(String[] args) 
     {
