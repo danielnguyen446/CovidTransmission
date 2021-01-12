@@ -58,19 +58,19 @@ public class CovidTransmission
             
                 if(contactTime>=0 && contactTime<=lowCutoff)
                 {
-                    System.out.println(contactTime + "low");
+                    System.out.println(contactTime + " low");
                 }
                 else if(contactTime>lowCutoff && contactTime<=medCutoff)
                 {
-                    System.out.println(contactTime + "medium");
+                    System.out.println(contactTime + " medium");
                 }
                 else if(contactTime>=medCutoff && contactTime<=highCutoff)
                 {
-                    System.out.println(contactTime + "high");
+                    System.out.println(contactTime + " high");
                 }
                 else if(contactTime>highCutoff)
                 {
-                    System.out.println(contactTime + "HIGH");
+                    System.out.println(contactTime + " HIGH");
                 }
             }
             else    /**invalid because contactTime can't be negative.*/
